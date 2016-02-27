@@ -1,0 +1,9 @@
+<form role="form">
+  <p>Are you sure you wish to delete the asset : <b>{{ asset.name }}</b> ?</p>
+  <youtube src="asset.url"></youtube>
+
+  <div class="form-group">
+    <input type="submit" class="btn btn-danger" ng-click="deleteAsset()" value="Yes"/>
+    <button ng-click="back()" type="button" class="btn btn-default">No</button>
+  </div>
+</form>
